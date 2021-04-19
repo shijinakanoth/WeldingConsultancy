@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Future Tech</title>
+    <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 11]>
+    	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+{#    <meta name="author" content="Phoenixcoded" />#}
+    <!-- Favicon icon -->
+{#    <link rel="icon" href="../static/admin/assets/images/favicon.ico" type="image/x-icon">#}
+
+    <!-- vendor css -->
+    <link rel="stylesheet" href="../static/admin/assets/css/style.css">
+    
+    
+
+</head>
+<body class="">
+	<!-- [ Pre-loader ] start -->
+{#	<div class="loader-bg">#}
+{#		<div class="loader-track">#}
+{#			<div class="loader-fill"></div>#}
+{#		</div>#}
+{#	</div>#}
+	<!-- [ Pre-loader ] End -->
+	<!-- [ navigation menu ] start -->
+	<nav class="pcoded-navbar menu-light ">
+		<div class="navbar-wrapper  ">
+{#			<div class="navbar-content scroll-div " >#}
+				
+				
+				
+				<ul class="nav pcoded-inner-navbar ">
+					<li class="nav-item pcoded-menu-caption">
+					    <label>Navigation</label>
+					</li>
+{#					<li class="nav-item">#}
+{#					    <a href="index.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>#}
+{#					</li>#}
+					<li class="nav-item pcoded-hasmenu">
+					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Workers Management</span></a>
+					    <ul class="pcoded-submenu">
+					        <li><a href="/addworker" target="_parent" >Add Worker</a></li>
+					        <li><a href="/viewworker" target="_parent" >View Workers</a></li>
+					    </ul>
+					</li>
+                    <li class="nav-item pcoded-hasmenu">
+					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Works</span></a>
+					    <ul class="pcoded-submenu">
+					        <li><a href="#" target="_parent">view and confirm work</a></li>
+					        <li><a href="#" target="_parent">view confirmed work</a></li>
+					    </ul>
+					</li>
+                     <li class="nav-item pcoded-hasmenu">
+					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Raw Material</span></a>
+					    <ul class="pcoded-submenu">
+					        <li><a href="/addrawmaterial" target="_parent">Add raw material</a></li>
+					        <li><a href="/viewrawmaterial" target="_parent">View raw material</a></li>
+					    </ul>
+					</li>
+                    <li class="nav-item pcoded-hasmenu">
+					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Service</span></a>
+					    <ul class="pcoded-submenu">
+					        <li><a href="/addservice" target="_parent">Add Service</a></li>
+					        <li><a href="/viewservice" target="_parent">Current Services</a></li>
+                            <li><a href="/enableservice" target="_parent">Disabled Services</a> </li>
+					    </ul>
+					</li>
+
+
+
+
+
+
+
+
+
+                    <li class="nav-item pcoded-hasmenu">
+					    <a href="/" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Logout</span></a>
+
+					</li>
+
+
+{#					<li class="nav-item pcoded-menu-caption">#}
+{#					    <label>Forms &amp; table</label>#}
+{#					</li>#}
+{#					<li class="nav-item">#}
+{#					    <a href="form_elements.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Forms</span></a>#}
+{#					</li>#}
+{#					<li class="nav-item">#}
+{#					    <a href="tbl_bootstrap.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Bootstrap table</span></a>#}
+{#					</li>#}
+{#					<li class="nav-item pcoded-menu-caption">#}
+{#					    <label>Chart & Maps</label>#}
+{#					</li>#}
+{#					<li class="nav-item">#}
+{#					    <a href="chart-apex.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-pie-chart"></i></span><span class="pcoded-mtext">Chart</span></a>#}
+{#					</li>#}
+{#					<li class="nav-item">#}
+{#					    <a href="map-google.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Maps</span></a>#}
+{#					</li>#}
+{#					<li class="nav-item pcoded-menu-caption">#}
+{#					    <label>Pages</label>#}
+{#					</li>#}
+{#					<li class="nav-item pcoded-hasmenu">#}
+{#					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-lock"></i></span><span class="pcoded-mtext">Authentication</span></a>#}
+{#					    <ul class="pcoded-submenu">#}
+{#					        <li><a href="auth-signup.html" target="_blank">Sign up</a></li>#}
+{#					        <li><a href="auth-signin.html" target="_blank">Sign in</a></li>#}
+{#					    </ul>#}
+{#					</li>#}
+{#					<li class="nav-item"><a href="sample-page.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-sidebar"></i></span><span class="pcoded-mtext">Sample page</span></a></li>#}
+
+				</ul>
+{#				#}
+{#				<div class="card text-center">#}
+{#					<div class="card-block">#}
+{#						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>#}
+{#						<i class="feather icon-sunset f-40"></i>#}
+{#						<h6 class="mt-3">Download Pro</h6>#}
+{#						<p>Getting more features with pro version</p>#}
+{#						<a href="https://1.envato.market/qG0m5" target="_blank" class="btn btn-primary btn-sm text-white m-0">Upgrade Now</a>#}
+{#					</div>#}
+{#				</div>#}
+				
+			</div>
+		</div>
+	</nav>
+	<!-- [ navigation menu ] end -->
+	<!-- [ Header ] start -->
+	<header class="navbar pcoded-header navbar-expand-lg navbar-light header-blue">
+		
+			
+				<div class="m-header">
+					<a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
+
+                    <a href="#!" class="b-brand">
+						<!-- ========   change your logo hear   ============ -->
+{#						<img src="../static/admin/assets/images/logo.png" alt="" class="logo">#}
+{#						<img src="../static/admin/assets/images/logo-icon.png" alt="" class="logo-thumb">#}
+{#					</a>#}
+					<a href="#!" class="mob-toggler">
+						<i class="feather icon-more-vertical"></i>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+{#							<a href="#!" class="pop-search"><i class="feather icon-search"></i></a>#}
+{#							<div class="search-bar">#}
+{#								<input type="text" class="form-control border-0 shadow-none" placeholder="Search hear">#}
+{#								<button type="button" class="close" aria-label="Close">#}
+{#									<span aria-hidden="true">&times;</span>#}
+{#								</button>#}
+{#							</div>#}
+						</li>
+					</ul>
+					<ul class="navbar-nav ml-auto">
+						<li>
+							
+							
+						</li>
+					</ul>
+				</div>
+				
+			
+	</header>
+	<!-- [ Header ] end -->
+	
+	
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+    <div class="pcoded-content">
+        <!-- [ breadcrumb ] start -->
+{#        {% block body %} {% endblock %}#}
+        <div class="page-header"><h1 class="m-b-10"><font color="white"> Future Tech Welders </font></h1>
+            <div class="page-block">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="page-header-title">
+{#                            <h1 class="m-b-10">Future Tech Wedlders</h1>#}
+                        </div>
+                        <ul class="breadcrumb">
+{#                            <li class="breadcrumb-item"><a href="admin_index.html"><i class="feather icon-home"></i></a></li>#}
+{#                            <li class="breadcrumb-item"><a href="#!">Dashboard Analytics</a></li>#}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- [ breadcrumb ] end -->
+        <!-- [ Main Content ] start -->
+        <div class="row">
+           
+                    <div class="col-sm-6">
+                        <div class="card support-bar overflow-hidden">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- support-section end -->
+    {% block body %} {% endblock %}
+
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            
+                        </div>
+                    </div>
+                </div>
+
+<!-- [ Main Content ] end -->
+    <!-- Warning Section start -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 11]>
+       
+    <![endif]-->
+    <!-- Warning Section Ends -->
+
+    <!-- Required Js -->
+    <script src="../static/admin/assets/js/vendor-all.min.js"></script>
+    <script src="../static/admin/assets/js/plugins/bootstrap.min.js"></script>
+    <script src="../static/admin/assets/js/ripple.js"></script>
+    <script src="../static/admin/assets/js/pcoded.min.js"></script>
+
+<!-- Apex Chart -->
+<script src="../static/admin/assets/js/plugins/apexcharts.min.js"></script>
+
+
+<!-- custom-chart js -->
+<script src="../static/admin/assets/js/pages/dashboard-main.js"></script>
+</body>
+
+</html>

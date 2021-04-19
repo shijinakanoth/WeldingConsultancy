@@ -1,0 +1,33 @@
+{% extends 'admin_index.html' %}
+{% block body %}
+<body>
+<center><h3>Leave Applications</h3>
+  <table width="508" height="91" border="1">
+    <tr>
+      <th width="22">#</th>
+      <th width="76">Worker ID</th>
+      <th width="74">Name</th>
+      <th width="59">Date</th>
+      <th width="81">No of days</th>
+      <th width="85">Reason</th>
+        <th width="85">Applied Date</th>
+      <th width="65">&nbsp;</th>
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>{{ loop.index }}&nbsp;</td>
+      <td>{{ i['workerid'] }}&nbsp;</td>
+        <td>{{ i['worker_name'] }}&nbsp;</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+      <td>&nbsp;{{ i['days'] }}</td>
+      <td>&nbsp;{{ i['reason'] }}</td>
+      <td>{{ i['apply_date'] }}&nbsp;</td>
+      <td><p><a href="#">approve</a></p>
+      <p><a href="#">reject</a></p></td>
+    </tr>
+      {% endfor %}
+  </table>
+  <p>&nbsp;</p>
+</center>
+</body>
+{% endblock %}

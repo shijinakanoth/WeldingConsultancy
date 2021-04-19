@@ -1,0 +1,39 @@
+{% extends 'admin_index.html' %}
+{% block body %}
+
+<body><center>
+<h3>Workers</h3>
+<table width="1200" height="200" border="0">
+  <tr>
+    <th width="19" height="62">#</th>
+    <th width="47">Name </th>
+    <th width="100">DOB</th>
+    <th width="78">Mobile No</th>
+    <th width="53">Email </th>
+      <th width="53">Adhar </th>
+    <th width="64">Address</th>
+      <th width="64">wages per day</th>
+    <th width="80">&nbsp;</th>
+  </tr>
+    {% for i in data %}
+  <tr>
+    <td>{{ loop.index }}&nbsp;</td>
+    <td>&nbsp;<img src="{{ i['photo'] }}" height="100" width="100"/> {{ i['worker_name'] }}</td>
+    <td>{{ i['dob'] }}&nbsp;</td>
+    <td>{{ i['phone_no'] }}&nbsp;</td>
+    <td>&nbsp;{{ i['worker_email'] }}</td>
+      <td>{{ i['adhar_no'] }}&nbsp;</td>
+      <td>&nbsp;{{ i['house_name'] }}<br/>{{ i['place'] }}<br/>{{ i['post'] }}<br/>{{ i['pin'] }}</td>
+      <td>{{ i['wages'] }}&nbsp;</td>
+    <td><p><a href="/editworker/{{ i['workerid'] }}">edit</a></p>
+      <p><a href="/deleteworker/{{ i['workerid'] }}">delete</a></p>
+      <p><a href="#">assign</a></p></td>
+  </tr>
+    {% endfor %}
+</table>
+
+<p>&nbsp;</p>
+</center>
+
+</body>
+{% endblock %}

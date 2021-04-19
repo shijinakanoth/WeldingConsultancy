@@ -1,0 +1,26 @@
+{% extends 'admin_index.html' %}
+{% block body %}
+
+
+<body><h1>View services</h1>
+<center><table width="500" height="91" border="0">
+<caption>Disabled services</caption>
+    <tr>
+      <th width="54">#</th>
+      <th width="132">Service</th>
+        <th width="132">Description</th>
+      <th width="60">&nbsp;</th>
+    </tr>
+      {% for i in dataa %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>{{ i['service'] }}&nbsp;</td>
+        <td>{{ i['description'] }}&nbsp;</td>
+      <td><a href="/enable/{{ i['service_id'] }}">enable</a></td>
+    </tr>
+{% endfor %}
+  </table>
+ <p>&nbsp;</p>
+</center>
+</body>
+{% endblock %}

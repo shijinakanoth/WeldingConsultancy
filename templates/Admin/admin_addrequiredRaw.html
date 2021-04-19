@@ -1,0 +1,27 @@
+{% extends 'admin_index.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table width="229" height="124" border="0">
+    <tr>
+      <th colspan="2">Required rawmaterials</th>
+     
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td><label for="txt_reqraw"></label>
+      <input type="text" name="txt_reqraw" id="txt_reqraw" /></td>
+    </tr>
+    <tr>
+      <td>Quantity</td>
+      <td><label for="txt_reqquantity"></label>
+      <input type="text" name="txt_reqquantity" id="txt_reqquantity" /></td>
+    </tr>
+    <tr>
+      <td colspan="2">&nbsp;<input type="submit" name="bt_addraw" id="bt_addraw" value="Add" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}
