@@ -1,0 +1,26 @@
+{% extends 'admin_index.html' %}
+{% block body %}
+
+<body><center>
+<h3>Confirm Work</h3>
+<table width="750" height="90" border="0">
+  <tr>
+    <th width="23">#</th>
+    <th width="67">Client</th>
+    <th width="167">Work location</th>
+    <th width="113">Service</th>
+
+  </tr>
+{% for i in data %}
+  <tr>
+    <td>{{ loop.index }}&nbsp;</td>
+    <td>{{ i['name'] }}<br>Email id: {{ i['email'] }}<br>Ph no: {{ i['phone_no'] }}&nbsp;</td>
+    <td>{{ i['worksite']}}<br>Lattitude:{{ i['lattitude'] }}<br>Longitude:{{ i['longitude'] }}&nbsp;</td>
+    <td>&nbsp;{{ i['service'] }}</td>
+  </tr>
+    {% endfor %}
+</table></center>
+
+<p>&nbsp;</p>
+</body>
+{% endblock %}
