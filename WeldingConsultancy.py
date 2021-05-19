@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 import datetime
 from DBConnection import Db
-
+import qrcode
 import random
 app = Flask(__name__)
 path="C:\\Users\\DELL\\PycharmProjects\\WeldingConsultancy\\static\\photos\\"
@@ -66,8 +66,9 @@ def addrawmaterial():
 def addrawmaterial1():
     rawname=request.form['raw_name']
     rawquantity=request.form['raw_quantity']
+    descr=request.form['description']
     db1=Db()
-    db1.insert("insert into rawmaterial VALUES ('','"+rawname+"','"+rawquantity+"')")
+    db1.insert("insert into rawmaterial VALUES ('','"+rawname+"','"+rawquantity+"','"+descr+"')")
     return '<script>alert("inserted...."); window.location="/addrawmaterial"</script>'
 
 @app.route('/addreqrawmaterial')
@@ -78,8 +79,9 @@ def addreqrawmaterial():
 def addreqrawmaterial1():
     reqname=request.form['txt_reqraw']
     reqquantity=request.form['txt_reqquantity']
+    descr = request.form['description']
     db2=Db()
-    db2.insert("insert into requiredrawmaterial VALUES ('','"++"')")
+    db2.insert("insert into requiredrawmaterial VALUES ('','"++"','"++"')")
 
     return render_template("Admin/admin_addrequiredRaw.html")
 
@@ -99,18 +101,75 @@ def addservice1():
 @app.route('/confirmleave')
 def confirmleave():
     db=Db()
-    qry=db.select("select * from worker,leave where worker.workerid=leave.worker_id")
+    qry=db.select("select * from worker,worker_leave where worker.workerid=worker_leave.worker_id")
     return render_template("Admin/admin_confirmLeave.html",data=qry)
+
+
+
+@app.route('/approve_leave/<id>')
+def approve_leave(id):
+    db=Db()
+    qry=db.update("update worker_leave set status='approve' where leave_id='"+str(id)+"'")
+    return '<script>alert("Approved");window.location="/confirmleave"</script>'
+
+
+
+@app.route('/reject_leave/<id>')
+def reject_leave(id):
+    db=Db()
+    qry=db.update("update worker_leave set status='reject' where leave_id='"+str(id)+"'")
+    return '<script>alert("Rejected");window.location="/confirmleave"</script>'
 
 @app.route('/confirmwork')
 def confirmwork():
     db=Db()
-    qry=db.select("select * from worktable,service,client where worktable.serviceid=service.service_id and worktable.clientid=client.client_id")
+    qry=db.select("select * from worktable,service,client where worktable.serviceid=service.service_id and worktable.clientid=client.client_id ")
     return render_template("Admin/admin_confirmWork.html",data=qry)
 
-@app.route('/givereply')
-def givereply():
-    return render_template("Admin/admin_giveReply.html")
+@app.route('/reject_work/<a>')
+def reject_work(a):
+    db=Db()
+    db.update("update  worktable set work_status='reject' WHERE workid='"+a+"' ")
+    return '<script>alert("Rejected");window.location="/confirmwork"</script>'
+
+@app.route('/workdetails/<a>/<b>')
+def workdetails(a,b):
+    return render_template("Admin/WorkDetails.html",d=a,d1=b)
+
+
+@app.route('/workdetails1/<a>/<b>',methods=['post'])
+def workdetails1(a,b):
+    db=Db()
+    num=request.form['no']
+    sdate=request.form['sdate']
+    edate=request.form['edate']
+    amt=request.form['amt']
+    qr_code=qrcode.make(b)
+    qr_code.save("E:\\welding\\WeldingConsultancy_python\\static\\qrcode\\"+str(b)+".png")
+    db.insert("insert into payment VALUES ('','"+b+"','"+amt+"','','','pending')")
+    db.insert("insert into schedule VALUES ('','"+b+"','"+sdate+"','"+edate+"','"+num+"')")
+    db.update("update  worktable set work_status='confirm' WHERE workid='" + b + "' ")
+    return '<script>alert("Added successfully");window.location="/confirmwork"</script>'
+
+@app.route('/confirmwork1')
+def confirmwork1():
+    db=Db()
+    qry=db.select("select * from worktable,service,client where worktable.serviceid=service.service_id and worktable.clientid=client.client_id and worktable.work_status!='pending'")
+    return render_template("Admin/confirmed_works.html",data=qry)
+
+
+@app.route('/update_work_status/<id>')
+def update_work_status(id):
+    db=Db()
+    qry=db.selectOne("select * from worktable where workid='"+str(id)+"'")
+    return  render_template("Admin/update_work_status.html",id=id,data=qry)
+
+@app.route('/update_work_status_post/<id>',methods=['post'])
+def update_work_status_post(id):
+    s=request.form['txt_reply']
+    db=Db()
+    qry=db.update("update worktable set work_status='"+str(s)+"' where workid='"+str(id)+"' ")
+    return '<script>alert("Status Updated");window.location="/confirmwork"</script>'
 
 @app.route('/adminhome')
 def adminhome():
@@ -118,7 +177,9 @@ def adminhome():
 
 @app.route('/paymenthistory')
 def paymenthistory():
-    return render_template("Admin/admin_paymentHistory.html")
+    db=Db()
+    qry=db.select("select * from payment,worktable,client where payment.workid=worktable.workid and worktable.clientid=client.client_id")
+    return render_template("Admin/admin_paymentHistory.html",data=qry)
 
 @app.route('/updatestatus')
 def updatestaus():
@@ -126,19 +187,97 @@ def updatestaus():
     qyr=db.select("select * from worktable,client where worktable.clientid=client.client_id")
     return render_template("Admin/admin_updateWorkStatus.html",data=qyr)
 
-@app.route('/viewattendance')
-def viewattendance():
-    return render_template("Admin/admin_viewAttendance.html")
+@app.route('/status/<id>')
+def status(id):
+    db = Db()
+    qry = db.selectOne("select * from worktable where workidid='" + id + "'")
+    return render_template("Admin/Status.html",data=qry)
+
+
+
+@app.route('/status1/<id>',methods=['post'])
+def status1(id):
+    db=Db()
+    status=request.form['raw_name']
+    qry=db.update("update worktable set status='"+status+"' where workid='"+id+"'")
+    return updatestaus()
+
+
+
+
+@app.route('/view_attendence/<id>',methods=['post'])
+def view_attendence(id):
+    b=request.form['s']
+    db=Db()
+    if b=="View Attendence":
+        qry=db.select("select * from attendance,worker,worktable where worker.workerid=attendance.worker_id and attendance.work_id=worktable.workid order by attendance.date desc ")
+        if len(qry)>0:
+            return render_template("Admin/admin_viewAttendance.html",data=qry)
+        else:
+            return render_template("Admin/admin_viewAttendance.html", data=0)
+    else:
+        qry = db.selectOne("select * from worktable,payment,schedule where schedule.workid=worktable.workid and worktable.workid=payment.workid and payment.workid='" + str(id) + "'")
+        amount = qry['amount']
+        number = qry['number_workers']
+        total = float(amount) * float(number)
+        return render_template("Admin/payment.html", data=qry,total=total)
+
+
+@app.route('/payment/<id>/<amount>',methods=['post'])
+def payment(id,amount):
+    db=Db()
+    account=request.form['acc']
+    ifc=request.form['i']
+    total = request.form['textfield3']
+    a = db.selectOne("select * from account where account_no='" + account + "' and ifsc_code='" + ifc + "'")
+    o_account = db.selectOne("select * from account where account_id='2'")
+    if a is not None:
+        balance = a['balance']
+        if float(balance) > float(total):
+            available_balance = float(balance) - float(total)
+
+            o_balance = o_account['balance']
+            o_cbalance = float(o_balance) + float(total)
+            db.update("update account set balance='" + str(available_balance) + "' where account_no='" + account + "'")
+
+            db.update("update account set balance='" + str(o_cbalance) + "' where account_id='3'")
+            db.update("update payment set status='salary_paid' where workid='" + str(id) + "'")
+            qry2=db.select("select * from scheduleworker where scheduleworker.workid='"+str(id)+"'")
+            for i in qry2:
+                worker_id=i['worker_id']
+                q = db.insert("insert into salary values ('','" + str(amount) + "','" + str(worker_id) + "',curdate())")
+            return '<script>alert("Payment successfully");window.location="/confirmwork"</script>'
+        else:
+            return '<script>alert("Insufficent Balance");window.location="/confirmwork"</script>'
+    else:
+        return '<script>alert("Invalid Account");window.location="/confirmwork"</script>'
+
 
 @app.route('/viewclient')
 def viewclient():
-    return render_template("Admin/admin_viewClient.html")
+    db=Db()
+    qry=db.select("select * from client")
+    return render_template("Admin/admin_viewClient.html",data=qry)
 
 @app.route('/viewcomplaint')
 def viewcomplaint():
     db=Db()
     qry=db.select("select * from complaint,worktable,client,service where complaint.workid=worktable.workid and worktable.clientid=client.client_id and  worktable.serviceid=service.service_id")
     return render_template("Admin/admin_viewComplaints.html",data=qry)
+
+
+@app.route('/view_act/<w>')
+def view_act(w):
+    return render_template("Admin/admin_giveReply.html",x=w)
+
+
+
+@app.route('/act_reply/<id>',methods=['POST'])
+def act_reply(id):
+    r=request.form["txt_reply"]
+    db=Db()
+    db.update("update complaint set reply_date=now(),reply='"+r+"' where complaint_id='"+str(id)+"'")
+    return viewcomplaint()
 
 @app.route('/viewrawmaterial')
 def viewrawmaterial():
@@ -157,7 +296,8 @@ def updateraw1(id):
     db=Db()
     name=request.form['raw_name']
     quantity=request.form['raw_quantity']
-    qry=db.update("update rawmaterial set raw_name='"+name+"',quantity='"+quantity+"' where raw_id='"+id+"'")
+    desc=request.form['description']
+    qry=db.update("update rawmaterial set raw_name='"+name+"',quantity='"+quantity+"',description='"+desc+"' where raw_id='"+id+"'")
     return viewrawmaterial()
 
 
@@ -258,6 +398,14 @@ def viewworkhistory():
     return render_template("Admin/admin_viewWorkHistory.html")
 
 
+@app.route('/view_rating_review')
+def view_rating_review():
+    db=Db()
+    q = db.select("select * from review,client WHERE review.client_id=client.client_id")
+    return render_template("Admin/view_rating_review.html",data=q)
+
+
+
 
 
 
@@ -268,4 +416,4 @@ def viewworkhistory():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True,port=4000)
