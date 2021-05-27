@@ -10,20 +10,148 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WeldingConsultancy$WeldingConsultancy.coverage" NAME="WeldingConsultancy Coverage Results" MODIFIED="1618575474533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/WeldingConsultancy$WeldingConsultancy.coverage" NAME="WeldingConsultancy Coverage Results" MODIFIED="1620408243485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/WeldingConsultancy$Android.coverage" NAME="Android Coverage Results" MODIFIED="1620380822977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WeldingConsultancy_python$WeldingConsultancy.coverage" NAME="WeldingConsultancy Coverage Results" MODIFIED="1620831915574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/WeldingConsultancy_python$Android.coverage" NAME="Android Coverage Results" MODIFIED="1620833984960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin_index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin_index.html">
+      <file leaf-file-name="WeldingConsultancy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeldingConsultancy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2499">
-              <caret line="147" column="16" lean-forward="false" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="214" column="53" lean-forward="true" selection-start-line="214" selection-start-column="53" selection-end-line="214" selection-end-column="53" />
               <folding>
-                <marker date="1618573523197" expanded="false" signature="5868:5875" ph="×" />
-                <marker date="1618573523197" expanded="false" signature="7324:7331" ph="×" />
+                <element signature="e#0#47#0" expanded="true" />
+                <element signature="e#1981#2038#0" expanded="false" />
+                <element signature="e#2492#2549#0" expanded="false" />
+                <element signature="e#2956#3009#0" expanded="false" />
+                <element signature="e#6256#6303#0" expanded="false" />
+                <element signature="e#6630#6804#0" expanded="false" />
+                <element signature="e#11547#11605#0" expanded="false" />
+                <element signature="e#11659#11714#0" expanded="false" />
+                <element signature="e#12970#14580#0" expanded="false" />
+                <marker date="1620832530174" expanded="true" signature="544:580" ph="select * fro... login" />
+                <marker date="1620832530174" expanded="true" signature="544:593" ph="select * fro... login" />
+                <marker date="1620832530174" expanded="true" signature="544:608" ph="select * fro... login" />
+                <marker date="1620832530174" expanded="true" signature="544:621" ph="select * fro... login" />
+                <marker date="1620832530174" expanded="true" signature="544:623" ph="select * fro... login" />
+                <marker date="1620832530174" expanded="true" signature="1580:1604" ph="insert into login... " />
+                <marker date="1620832530174" expanded="true" signature="1580:1609" ph="insert into login... " />
+                <marker date="1620832530174" expanded="true" signature="1580:1621" ph="insert into login... " />
+                <marker date="1620832530174" expanded="true" signature="1580:1644" ph="insert into login... " />
+                <marker date="1620832530174" expanded="true" signature="1580:1646" ph="insert into login... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1690" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1705" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1716" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1726" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1739" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1751" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1763" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1775" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1787" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1798" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1809" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1819" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1830" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="1662:1832" ph="insert into worker... " />
+                <marker date="1620832530174" expanded="true" signature="2260:2296" ph="insert into rawmaterial... " />
+                <marker date="1620832530174" expanded="true" signature="2260:2310" ph="insert into rawmaterial... " />
+                <marker date="1620832530174" expanded="true" signature="2260:2328" ph="insert into rawmaterial... " />
+                <marker date="1620832530174" expanded="true" signature="2260:2339" ph="insert into rawmaterial... " />
+                <marker date="1620832530174" expanded="true" signature="2260:2341" ph="insert into rawmaterial... " />
+                <marker date="1620832530174" expanded="true" signature="2784:2828" ph="insert into requiredrawmaterial... " />
+                <marker date="1620832530174" expanded="true" signature="2784:2841" ph="insert into requiredrawmaterial... " />
+                <marker date="1620832530174" expanded="true" signature="2784:2843" ph="insert into requiredrawmaterial... " />
+                <marker date="1620832530174" expanded="true" signature="3186:3218" ph="insert into service... " />
+                <marker date="1620832530174" expanded="true" signature="3186:3231" ph="insert into service... " />
+                <marker date="1620832530174" expanded="true" signature="3186:3232" ph="insert into service... " />
+                <marker date="1620832530174" expanded="true" signature="3186:3236" ph="insert into service... " />
+                <marker date="1620832530174" expanded="true" signature="3186:3253" ph="insert into service... " />
+                <marker date="1620832530174" expanded="true" signature="3186:3255" ph="insert into service... " />
+                <marker date="1620832530174" expanded="true" signature="3420:3498" ph="select * fro... worker" />
+                <marker date="1620832530174" expanded="true" signature="3661:3730" ph="update worke... " />
+                <marker date="1620832530174" expanded="true" signature="3902:3970" ph="update worke... " />
+                <marker date="1620832530174" expanded="true" signature="4131:4254" ph="select * fro... worktable" />
+                <marker date="1620832530174" expanded="true" signature="4131:4257" ph="select * fro... worktable" />
+                <marker date="1620832530174" expanded="true" signature="4405:4468" ph="update workt... " />
+                <marker date="1620832530174" expanded="true" signature="5013:5045" ph="insert into payment... " />
+                <marker date="1620832530174" expanded="true" signature="5013:5053" ph="insert into payment... " />
+                <marker date="1620832530174" expanded="true" signature="5013:5063" ph="insert into payment... " />
+                <marker date="1620832530174" expanded="true" signature="5013:5069" ph="insert into payment... " />
+                <marker date="1620832530174" expanded="true" signature="5013:5078" ph="insert into payment... " />
+                <marker date="1620832530174" expanded="true" signature="5013:5080" ph="insert into payment... " />
+                <marker date="1620832530174" expanded="true" signature="5096:5129" ph="insert into schedule... " />
+                <marker date="1620832530174" expanded="true" signature="5096:5136" ph="insert into schedule... " />
+                <marker date="1620832530174" expanded="true" signature="5096:5137" ph="insert into schedule... " />
+                <marker date="1620832530174" expanded="true" signature="5096:5149" ph="insert into schedule... " />
+                <marker date="1620832530174" expanded="true" signature="5096:5161" ph="insert into schedule... " />
+                <marker date="1620832530174" expanded="true" signature="5096:5170" ph="insert into schedule... " />
+                <marker date="1620832530174" expanded="true" signature="5188:5256" ph="update workt... " />
+                <marker date="1620832530174" expanded="true" signature="5429:5589" ph="select * fro... worktable" />
+                <marker date="1620832530174" expanded="true" signature="5761:5797" ph="select * fro... worktable" />
+                <marker date="1620832530174" expanded="true" signature="5761:5799" ph="select * fro... worktable" />
+                <marker date="1620832530174" expanded="true" signature="5761:5811" ph="select * fro... worktable" />
+                <marker date="1620832530174" expanded="true" signature="6048:6082" ph="update workt... " />
+                <marker date="1620832530174" expanded="true" signature="6048:6093" ph="update workt... " />
+                <marker date="1620832530174" expanded="true" signature="6048:6107" ph="update workt... " />
+                <marker date="1620832530174" expanded="true" signature="6048:6120" ph="update workt... " />
+                <marker date="1620832530174" expanded="true" signature="6388:6409" ph="select * fro... payment" />
+                <marker date="1620832530174" expanded="true" signature="6388:6504" ph="select * fro... payment" />
+                <marker date="1620832530174" expanded="true" signature="6657:6729" ph="select * fro... worktable" />
+                <marker date="1620832530174" expanded="true" signature="6887:6938" ph="select * fro... rawmaterial" />
+                <marker date="1620832530174" expanded="true" signature="7130:7192" ph="update rawma... " />
+                <marker date="1620832530174" expanded="true" signature="7390:7514" ph="select * fro... attendance" />
+                <marker date="1620832530174" expanded="true" signature="7390:7544" ph="select * fro... attendance" />
+                <marker date="1620832530174" expanded="true" signature="7780:7932" ph="select * fro... worktable" />
+                <marker date="1620832530174" expanded="true" signature="8337:8421" ph="select * fro... account" />
+                <marker date="1620832530174" expanded="true" signature="8454:8496" ph="select * fro... account" />
+                <marker date="1620832530174" expanded="true" signature="8782:8876" ph="update accou... " />
+                <marker date="1620832530174" expanded="true" signature="8903:8976" ph="update accou... " />
+                <marker date="1620832530174" expanded="true" signature="9002:9072" ph="update booki... " />
+                <marker date="1620832530174" expanded="true" signature="9103:9173" ph="select * fro... scheduleworker" />
+                <marker date="1620832530174" expanded="true" signature="9275:9362" ph="insert into monthly_payment... " />
+                <marker date="1620832530174" expanded="true" signature="9753:9773" ph="select * fro... client" />
+                <marker date="1620832530174" expanded="true" signature="9925:10097" ph="select * fro... complaint" />
+                <marker date="1620832530174" expanded="true" signature="10407:10491" ph="update compl... " />
+                <marker date="1620832530174" expanded="true" signature="10607:10632" ph="select * fro... rawmaterial" />
+                <marker date="1620832530174" expanded="true" signature="10791:10838" ph="select * fro... rawmaterial" />
+                <marker date="1620832530174" expanded="true" signature="11123:11234" ph="update rawma... " />
+                <marker date="1620832530174" expanded="true" signature="11346:11390" ph="delete from " />
+                <marker date="1620832530174" expanded="true" signature="11794:11832" ph="select * fro... service" />
+                <marker date="1620832530174" expanded="true" signature="11975:12029" ph="update servi... " />
+                <marker date="1620832530174" expanded="true" signature="12196:12234" ph="select * fro... service" />
+                <marker date="1620832530174" expanded="true" signature="12379:12433" ph="update servi... " />
+                <marker date="1620832530174" expanded="true" signature="12609:12629" ph="select * fro... worker" />
+                <marker date="1620832530174" expanded="true" signature="12785:12829" ph="select * fro... worker" />
+                <marker date="1620832530174" expanded="true" signature="13638:13894" ph="update worke... " />
+                <marker date="1620832530174" expanded="true" signature="13970:14205" ph="update worke... " />
+                <marker date="1620832530174" expanded="true" signature="14275:14550" ph="update worke... " />
+                <marker date="1620832530174" expanded="true" signature="14667:14708" ph="delete from " />
+                <marker date="1620832530174" expanded="true" signature="15004:15071" ph="select * fro... review" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Admin/payment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_viewAttendance.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/admin_viewAttendance.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -31,187 +159,39 @@
       <file leaf-file-name="Android.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Android.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding>
-                <marker date="1618575474241" expanded="true" signature="435:480" ph="insert into login... " />
-                <marker date="1618575474241" expanded="true" signature="435:506" ph="insert into login... " />
-                <marker date="1618575474241" expanded="true" signature="528:556" ph="insert into client... " />
-                <marker date="1618575474241" expanded="true" signature="528:567" ph="insert into client... " />
-                <marker date="1618575474241" expanded="true" signature="528:579" ph="insert into client... " />
-                <marker date="1618575474241" expanded="true" signature="528:593" ph="insert into client... " />
-                <marker date="1618575474241" expanded="true" signature="528:605" ph="insert into client... " />
-                <marker date="1618575474241" expanded="true" signature="528:606" ph="insert into client... " />
-                <marker date="1618575474241" expanded="true" signature="528:608" ph="insert into client... " />
-                <marker date="1618575474241" expanded="true" signature="789:825" ph="select * fro... login" />
-                <marker date="1618575474241" expanded="true" signature="789:838" ph="select * fro... login" />
-                <marker date="1618575474241" expanded="true" signature="789:854" ph="select * fro... login" />
-                <marker date="1618575474241" expanded="true" signature="789:867" ph="select * fro... login" />
-                <marker date="1618575474241" expanded="true" signature="789:869" ph="select * fro... login" />
+                <marker date="1620833984944" expanded="true" signature="412:483" ph="insert into login... " />
+                <marker date="1620833984944" expanded="true" signature="505:598" ph="insert into client... " />
+                <marker date="1620833984944" expanded="true" signature="855:932" ph="select * fro... login" />
+                <marker date="1620833984944" expanded="true" signature="1243:1281" ph="select * fro... service" />
+                <marker date="1620833984944" expanded="true" signature="1739:1784" ph="insert into worktable... " />
+                <marker date="1620833984944" expanded="true" signature="1739:1879" ph="insert into worktable... " />
+                <marker date="1620833984944" expanded="true" signature="2092:2361" ph="select * fro... client" />
+                <marker date="1620833984944" expanded="true" signature="2661:2731" ph="select * fro... payment" />
+                <marker date="1620833984944" expanded="true" signature="2849:2896" ph="update payme... " />
+                <marker date="1620833984944" expanded="true" signature="2849:2907" ph="update payme... " />
+                <marker date="1620833984944" expanded="true" signature="3135:3277" ph="select * fro... schedule" />
+                <marker date="1620833984944" expanded="true" signature="3135:3325" ph="select * fro... schedule" />
+                <marker date="1620833984944" expanded="true" signature="3135:3365" ph="select * fro... schedule" />
+                <marker date="1620833984944" expanded="true" signature="3726:3829" ph="insert into complaint... " />
+                <marker date="1620833984944" expanded="true" signature="4001:4076" ph="select * fro... complaint" />
+                <marker date="1620833984944" expanded="true" signature="4001:4123" ph="select * fro... complaint" />
+                <marker date="1620833984944" expanded="true" signature="4410:4497" ph="insert into rating... " />
+                <marker date="1620833984944" expanded="true" signature="4663:4730" ph="select * fro... rating" />
+                <marker date="1620833984944" expanded="true" signature="5050:5167" ph="insert into leave... " />
+                <marker date="1620833984944" expanded="true" signature="5375:5444" ph="select * fro... review" />
+                <marker date="1620833984944" expanded="true" signature="5375:5453" ph="select * fro... worker_leave" />
+                <marker date="1620833984944" expanded="true" signature="5375:5481" ph="select * fro... worker_leave" />
+                <marker date="1620833984944" expanded="true" signature="5375:5495" ph="select * fro... worker_leave" />
+                <marker date="1620833984944" expanded="true" signature="5375:5501" ph="select * fro... worker_leave" />
+                <marker date="1620833984944" expanded="true" signature="5375:5504" ph="select * fro... worker_leave" />
+                <marker date="1620833984944" expanded="true" signature="5375:5515" ph="select * fro... worker_leave" />
+                <marker date="1620833984944" expanded="true" signature="5375:5520" ph="select * fro... worker_leave" />
+                <marker date="1620833984944" expanded="true" signature="5740:5792" ph="select * fro... client" />
+                <marker date="1620833984944" expanded="true" signature="6048:6124" ph="insert into attendance... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_viewClient.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Admin/admin_viewClient.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeldingConsultancy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeldingConsultancy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-                <element signature="e#1968#2025#0" expanded="false" />
-                <element signature="e#2102#2365#0" expanded="false" />
-                <element signature="e#2429#2486#0" expanded="false" />
-                <element signature="e#2569#2796#0" expanded="false" />
-                <element signature="e#2846#2899#0" expanded="false" />
-                <element signature="e#3283#3445#0" expanded="false" />
-                <element signature="e#3497#3717#0" expanded="false" />
-                <element signature="e#3765#3817#0" expanded="false" />
-                <element signature="e#3865#3912#0" expanded="false" />
-                <element signature="e#3970#4027#0" expanded="false" />
-                <element signature="e#4080#4254#0" expanded="false" />
-                <element signature="e#4312#4369#0" expanded="false" />
-                <element signature="e#4419#4472#0" expanded="false" />
-                <element signature="e#4528#4800#0" expanded="false" />
-                <element signature="e#4860#4986#0" expanded="false" />
-                <element signature="e#5041#5189#0" expanded="false" />
-                <element signature="e#5263#5485#0" expanded="false" />
-                <element signature="e#5539#5697#0" expanded="false" />
-                <element signature="e#5767#5825#0" expanded="false" />
-                <element signature="e#5879#5934#0" expanded="false" />
-                <element signature="e#7190#8800#0" expanded="false" />
-                <element signature="e#9072#9130#0" expanded="false" />
-                <marker date="1618568501947" expanded="true" signature="531:567" ph="select * fro... login" />
-                <marker date="1618568501947" expanded="true" signature="531:580" ph="select * fro... login" />
-                <marker date="1618568501947" expanded="true" signature="531:595" ph="select * fro... login" />
-                <marker date="1618568501947" expanded="true" signature="531:608" ph="select * fro... login" />
-                <marker date="1618568501947" expanded="true" signature="531:610" ph="select * fro... login" />
-                <marker date="1618568501947" expanded="true" signature="1567:1591" ph="insert into login... " />
-                <marker date="1618568501947" expanded="true" signature="1567:1596" ph="insert into login... " />
-                <marker date="1618568501947" expanded="true" signature="1567:1608" ph="insert into login... " />
-                <marker date="1618568501947" expanded="true" signature="1567:1631" ph="insert into login... " />
-                <marker date="1618568501947" expanded="true" signature="1567:1633" ph="insert into login... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1677" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1692" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1703" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1713" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1726" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1738" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1750" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1762" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1774" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1785" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1796" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1806" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1817" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="1649:1819" ph="insert into worker... " />
-                <marker date="1618568501947" expanded="true" signature="2209:2245" ph="insert into rawmaterial... " />
-                <marker date="1618568501947" expanded="true" signature="2209:2259" ph="insert into rawmaterial... " />
-                <marker date="1618568501947" expanded="true" signature="2209:2276" ph="insert into rawmaterial... " />
-                <marker date="1618568501947" expanded="true" signature="2209:2278" ph="insert into rawmaterial... " />
-                <marker date="1618568501947" expanded="true" signature="2681:2725" ph="insert into requiredrawmaterial... " />
-                <marker date="1618568501947" expanded="true" signature="2681:2731" ph="insert into requiredrawmaterial... " />
-                <marker date="1618568501947" expanded="true" signature="2681:2733" ph="insert into requiredrawmaterial... " />
-                <marker date="1618568501947" expanded="true" signature="3076:3108" ph="insert into service... " />
-                <marker date="1618568501947" expanded="true" signature="3076:3121" ph="insert into service... " />
-                <marker date="1618568501947" expanded="true" signature="3076:3122" ph="insert into service... " />
-                <marker date="1618568501947" expanded="true" signature="3076:3126" ph="insert into service... " />
-                <marker date="1618568501947" expanded="true" signature="3076:3143" ph="insert into service... " />
-                <marker date="1618568501947" expanded="true" signature="3076:3145" ph="insert into service... " />
-                <marker date="1618568501947" expanded="true" signature="3310:3374" ph="select * fro... worker" />
-                <marker date="1618568501947" expanded="true" signature="3524:3647" ph="select * fro... worktable" />
-                <marker date="1618568501947" expanded="true" signature="4107:4179" ph="select * fro... worktable" />
-                <marker date="1618568501947" expanded="true" signature="4555:4727" ph="select * fro... complaint" />
-                <marker date="1618568501947" expanded="true" signature="4887:4912" ph="select * fro... rawmaterial" />
-                <marker date="1618568501947" expanded="true" signature="5071:5118" ph="select * fro... rawmaterial" />
-                <marker date="1618568501947" expanded="true" signature="5366:5398" ph="update rawma... " />
-                <marker date="1618568501947" expanded="true" signature="5366:5399" ph="update rawma... " />
-                <marker date="1618568501947" expanded="true" signature="5366:5408" ph="update rawma... " />
-                <marker date="1618568501947" expanded="true" signature="5366:5409" ph="update rawma... " />
-                <marker date="1618568501947" expanded="true" signature="5366:5419" ph="update rawma... " />
-                <marker date="1618568501947" expanded="true" signature="5366:5432" ph="update rawma... " />
-                <marker date="1618568501947" expanded="true" signature="5366:5447" ph="update rawma... " />
-                <marker date="1618568501947" expanded="true" signature="5366:5454" ph="update rawma... " />
-                <marker date="1618568501947" expanded="true" signature="5566:5603" ph="delete from " />
-                <marker date="1618568501947" expanded="true" signature="5566:5604" ph="delete from " />
-                <marker date="1618568501947" expanded="true" signature="5566:5610" ph="delete from " />
-                <marker date="1618568501947" expanded="true" signature="5566:5612" ph="delete from " />
-                <marker date="1618568501947" expanded="true" signature="6014:6035" ph="select * fro... service" />
-                <marker date="1618568501947" expanded="true" signature="6014:6052" ph="select * fro... service" />
-                <marker date="1618568501947" expanded="true" signature="6195:6236" ph="update servi... " />
-                <marker date="1618568501947" expanded="true" signature="6195:6243" ph="update servi... " />
-                <marker date="1618568501947" expanded="true" signature="6195:6249" ph="update servi... " />
-                <marker date="1618568501947" expanded="true" signature="6416:6454" ph="select * fro... service" />
-                <marker date="1618568501947" expanded="true" signature="6599:6653" ph="update servi... " />
-                <marker date="1618568501947" expanded="true" signature="6829:6849" ph="select * fro... worker" />
-                <marker date="1618568501947" expanded="true" signature="6829:6851" ph="select * fro... worker" />
-                <marker date="1618568501947" expanded="true" signature="7005:7025" ph="select * fro... worker" />
-                <marker date="1618568501947" expanded="true" signature="7005:7042" ph="select * fro... worker" />
-                <marker date="1618568501947" expanded="true" signature="7005:7049" ph="select * fro... worker" />
-                <marker date="1618568501947" expanded="true" signature="7858:7889" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7898" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7904" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7912" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7913" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7923" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7934" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7945" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7955" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7959" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7970" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7980" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7986" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:7993" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8003" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8011" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8021" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8028" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8037" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8043" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8051" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8052" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8059" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8072" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8096" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8103" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8107" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8114" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="7858:8116" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="8190:8425" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="8495:8770" ph="update worke... " />
-                <marker date="1618568501947" expanded="true" signature="8887:8928" ph="delete from " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_viewService.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Admin/admin_viewService.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_worker.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Admin/add_worker.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="47" lean-forward="false" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -222,76 +202,91 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>conf</find>
-      <find>confirmwork</find>
-      <find>viewcom</find>
-      <find>adminl</find>
-      <find>adminhome</find>
-      <find>addra</find>
-      <find>vieww</find>
-      <find>edit</find>
-      <find>viewraw</find>
-      <find>container-login100-form-btn</find>
-      <find>viewwor</find>
-      <find>font</find>
-      <find>login</find>
-      <find>Poppins-Regular</find>
-      <find>delete</find>
-      <find>ph</find>
-      <find>inpu</find>
-      <find>btn-solid-lg page-scroll</find>
-      <find>a</find>
-      <find>login100-form-btn</find>
-      <find>fut</find>
-      <find>worker</find>
-      <find>home</find>
-      <find>viewwo</find>
-      <find>addser</find>
-      <find>current</find>
-      <find>mobile</find>
-      <find>viewser</find>
-      <find>log</find>
+      <find>/status</find>
+      <find>/update</find>
+      <find>img</find>
+      <find>/conf</find>
+      <find>/wo</find>
+      <find>/confirm</find>
+      <find>raw</find>
+      <find>/compla</find>
+      <find>/view</find>
+      <find>complain</find>
+      <find>viewcomplaint</find>
+      <find>/viewcomplaint</find>
+      <find>{%</find>
+      <find>leave</find>
+      <find>/view_co</find>
+      <find>work</find>
+      <find>reject_wor</find>
+      <find>work_sta</find>
+      <find>update_work_status</find>
+      <find>att</find>
+      <find>sched</find>
+      <find>view_</find>
+      <find>payme</find>
+      <find>view</find>
+      <find>paym</find>
+      <find>confirmwork1</find>
+      <find>c</find>
+      <find>paymenthistory</find>
+      <find>/pay</find>
+      <find>salary</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DBConnection.py" />
         <option value="$PROJECT_DIR$/templates/Admin/admin_login.html" />
         <option value="$PROJECT_DIR$/templates/login_index.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_home.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_addRawmaterial.html" />
         <option value="$PROJECT_DIR$/templates/Admin/admin_addrequiredRaw.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_confirmLeave.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_confirmWork.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_giveReply.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_paymentHistory.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_updateWorkStatus.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_viewAttendance.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_viewClient.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_viewComplaints.html" />
         <option value="$PROJECT_DIR$/templates/Admin/admin_viewrequiredRaw.html" />
         <option value="$PROJECT_DIR$/templates/Admin/admin_viewSchedule.html" />
         <option value="$PROJECT_DIR$/templates/Admin/admin_viewWorkHistory.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/update_rawmaterial.html" />
         <option value="$PROJECT_DIR$/templates/home_index.html" />
         <option value="$PROJECT_DIR$/static/login/css/main.css" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_viewRawMaterial.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/add_worker.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_viewWorker.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/Update_WorkStatus.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/Status.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_updateWorkStatus.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_home.html" />
         <option value="$PROJECT_DIR$/templates/Admin/edit_worker.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/disabled_services.html" />
-        <option value="$PROJECT_DIR$/WeldingConsultancy.py" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_viewService.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/add_worker.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/WorkDetails.html" />
         <option value="$PROJECT_DIR$/templates/Admin/admin_addService.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/disabled_services.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_viewService.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_viewWorker.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_viewClient.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/confirmed_works.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_paymentHistory.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_viewRawMaterial.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_addRawmaterial.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/update_rawmaterial.html" />
+        <option value="$PROJECT_DIR$/../WeldingConsultancy/templates/admin_index.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/view_rating_review.html" />
+        <option value="$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/admin_viewComplaints.html" />
+        <option value="$PROJECT_DIR$/DBConnection.py" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_viewComplaints.html" />
+        <option value="$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/admin_giveReply.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_giveReply.html" />
+        <option value="$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/admin_confirmLeave.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_confirmLeave.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_confirmWork.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_viewAttendance.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/update_work_status.html" />
         <option value="$PROJECT_DIR$/templates/admin_index.html" />
+        <option value="$PROJECT_DIR$/WeldingConsultancy.py" />
+        <option value="$PROJECT_DIR$/templates/Admin/payment.html" />
         <option value="$PROJECT_DIR$/Android.py" />
       </list>
     </option>
@@ -304,10 +299,10 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1376" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -324,26 +319,25 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeldingConsultancy" />
+              <option name="myItemId" value="WeldingConsultancy_python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeldingConsultancy" />
+              <option name="myItemId" value="WeldingConsultancy_python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeldingConsultancy" />
+              <option name="myItemId" value="WeldingConsultancy_python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeldingConsultancy" />
+              <option name="myItemId" value="WeldingConsultancy_python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -353,42 +347,39 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeldingConsultancy" />
+              <option name="myItemId" value="WeldingConsultancy_python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeldingConsultancy" />
+              <option name="myItemId" value="WeldingConsultancy_python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeldingConsultancy" />
+              <option name="myItemId" value="WeldingConsultancy_python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeldingConsultancy" />
+              <option name="myItemId" value="WeldingConsultancy_python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,11 +390,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\welding\WeldingConsultancy_python\templates\Admin" />
+      <recent name="C:\Users\DELL\PycharmProjects\WeldingConsultancy\static\admin\assets\images" />
+      <recent name="C:\Users\DELL\PycharmProjects\WeldingConsultancy\static\admin\assets\images\widget" />
       <recent name="C:\Users\DELL\PycharmProjects\WeldingConsultancy\static\admin" />
       <recent name="C:\Users\DELL\PycharmProjects\WeldingConsultancy\templates" />
-      <recent name="C:\Users\DELL\PycharmProjects\WeldingConsultancy\static\login" />
-      <recent name="C:\Users\DELL\PycharmProjects\WeldingConsultancy\static\Home" />
-      <recent name="C:\Users\DELL\PycharmProjects\WeldingConsultancy\templates\Admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -418,7 +409,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.WeldingConsultancy">
+  <component name="RunManager" selected="Python.Android">
+    <configuration default="false" name="Android" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WeldingConsultancy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Android.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -586,9 +596,15 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.WeldingConsultancy" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Android" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.Android" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -604,19 +620,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="0" width="1376" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21544118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22416413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26971608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20294599" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -634,18 +650,18 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20294599" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26971608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21544118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22416413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -673,172 +689,52 @@
           <line>34</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WeldingConsultancy.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WeldingConsultancy.py</url>
+          <line>288</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Android.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Android.py</url>
+          <line>180</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Android.py</url>
+          <line>181</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Android.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Android.py</url>
+          <line>196</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Android.py</url>
+          <line>194</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Home/css/magnific-popup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Home/css/swiper.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Home/css/fontawesome-all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Home/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Home/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="422" column="4" lean-forward="false" selection-start-line="422" selection-start-column="3" selection-end-line="422" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" column="26" lean-forward="false" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="56" lean-forward="false" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/login/css/util.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="458" column="4" lean-forward="false" selection-start-line="458" selection-start-column="4" selection-end-line="458" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/login/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6766">
-          <caret line="398" column="16" lean-forward="false" selection-start-line="398" selection-start-column="16" selection-end-line="398" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/logo-dark.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/next.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/logo-old.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/logo-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/logo-docs.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/prev.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/cd-arrow.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/widget/BRAZIL.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/widget/dashborad-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/widget/dashborad-4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/widget/dashborad-5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/widget/emoticon.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/widget/GERMANY.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/widget/img-round1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/widget/p2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/widget/p3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/assets/images/widget/PHONE1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/admin/assets/images/widget/PHONE4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -894,42 +790,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_viewRawMaterial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Admin/add_worker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="47" lean-forward="false" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_viewWorker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Admin/edit_worker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Admin/disabled_services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Admin/admin_login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -937,190 +797,435 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Update_WorkStatus.html" />
+    <entry file="file://$PROJECT_DIR$/templates/home_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="26" lean-forward="false" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/edit_worker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/add_worker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Admin/admin_addService.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="21" column="108" lean-forward="false" selection-start-line="21" selection-start-column="108" selection-end-line="21" selection-end-column="108" />
+        <state relative-caret-position="374">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/disabled_services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_viewWorker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_viewClient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Admin/admin_viewService.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_paymentHistory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/confirmed_works.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_viewRawMaterial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_addRawmaterial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/admin_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/WorkDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_viewComplaints.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/admin_viewComplaints.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/admin_giveReply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_giveReply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/admin_confirmLeave.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_confirmLeave.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#870#876#0#HTML" expanded="false" />
+            <element signature="e#876#882#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/admin_updateWorkStatus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_confirmWork.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="132" lean-forward="false" selection-start-line="20" selection-start-column="132" selection-end-line="20" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/update_rawmaterial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="82" lean-forward="false" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/view_rating_review.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Status.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_updateWorkStatus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/admin_confirmWork.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/WorkDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/update_work_status.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_viewAttendance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#464#470#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WeldingConsultancy/templates/admin_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="109" column="58" lean-forward="true" selection-start-line="109" selection-start-column="58" selection-end-line="109" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="147" column="16" lean-forward="false" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
-          <folding>
-            <marker date="1618573523197" expanded="false" signature="5868:5875" ph="×" />
-            <marker date="1618573523197" expanded="false" signature="7324:7331" ph="×" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_viewClient.html">
+    <entry file="file://$PROJECT_DIR$/../WeldingConsultancy/templates/Admin/admin_viewAttendance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeldingConsultancy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        <state relative-caret-position="255">
+          <caret line="214" column="53" lean-forward="true" selection-start-line="214" selection-start-column="53" selection-end-line="214" selection-end-column="53" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
-            <element signature="e#1968#2025#0" expanded="false" />
-            <element signature="e#2102#2365#0" expanded="false" />
-            <element signature="e#2429#2486#0" expanded="false" />
-            <element signature="e#2569#2796#0" expanded="false" />
-            <element signature="e#2846#2899#0" expanded="false" />
-            <element signature="e#3283#3445#0" expanded="false" />
-            <element signature="e#3497#3717#0" expanded="false" />
-            <element signature="e#3765#3817#0" expanded="false" />
-            <element signature="e#3865#3912#0" expanded="false" />
-            <element signature="e#3970#4027#0" expanded="false" />
-            <element signature="e#4080#4254#0" expanded="false" />
-            <element signature="e#4312#4369#0" expanded="false" />
-            <element signature="e#4419#4472#0" expanded="false" />
-            <element signature="e#4528#4800#0" expanded="false" />
-            <element signature="e#4860#4986#0" expanded="false" />
-            <element signature="e#5041#5189#0" expanded="false" />
-            <element signature="e#5263#5485#0" expanded="false" />
-            <element signature="e#5539#5697#0" expanded="false" />
-            <element signature="e#5767#5825#0" expanded="false" />
-            <element signature="e#5879#5934#0" expanded="false" />
-            <element signature="e#7190#8800#0" expanded="false" />
-            <element signature="e#9072#9130#0" expanded="false" />
-            <marker date="1618568501947" expanded="true" signature="531:567" ph="select * fro... login" />
-            <marker date="1618568501947" expanded="true" signature="531:580" ph="select * fro... login" />
-            <marker date="1618568501947" expanded="true" signature="531:595" ph="select * fro... login" />
-            <marker date="1618568501947" expanded="true" signature="531:608" ph="select * fro... login" />
-            <marker date="1618568501947" expanded="true" signature="531:610" ph="select * fro... login" />
-            <marker date="1618568501947" expanded="true" signature="1567:1591" ph="insert into login... " />
-            <marker date="1618568501947" expanded="true" signature="1567:1596" ph="insert into login... " />
-            <marker date="1618568501947" expanded="true" signature="1567:1608" ph="insert into login... " />
-            <marker date="1618568501947" expanded="true" signature="1567:1631" ph="insert into login... " />
-            <marker date="1618568501947" expanded="true" signature="1567:1633" ph="insert into login... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1677" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1692" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1703" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1713" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1726" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1738" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1750" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1762" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1774" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1785" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1796" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1806" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1817" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="1649:1819" ph="insert into worker... " />
-            <marker date="1618568501947" expanded="true" signature="2209:2245" ph="insert into rawmaterial... " />
-            <marker date="1618568501947" expanded="true" signature="2209:2259" ph="insert into rawmaterial... " />
-            <marker date="1618568501947" expanded="true" signature="2209:2276" ph="insert into rawmaterial... " />
-            <marker date="1618568501947" expanded="true" signature="2209:2278" ph="insert into rawmaterial... " />
-            <marker date="1618568501947" expanded="true" signature="2681:2725" ph="insert into requiredrawmaterial... " />
-            <marker date="1618568501947" expanded="true" signature="2681:2731" ph="insert into requiredrawmaterial... " />
-            <marker date="1618568501947" expanded="true" signature="2681:2733" ph="insert into requiredrawmaterial... " />
-            <marker date="1618568501947" expanded="true" signature="3076:3108" ph="insert into service... " />
-            <marker date="1618568501947" expanded="true" signature="3076:3121" ph="insert into service... " />
-            <marker date="1618568501947" expanded="true" signature="3076:3122" ph="insert into service... " />
-            <marker date="1618568501947" expanded="true" signature="3076:3126" ph="insert into service... " />
-            <marker date="1618568501947" expanded="true" signature="3076:3143" ph="insert into service... " />
-            <marker date="1618568501947" expanded="true" signature="3076:3145" ph="insert into service... " />
-            <marker date="1618568501947" expanded="true" signature="3310:3374" ph="select * fro... worker" />
-            <marker date="1618568501947" expanded="true" signature="3524:3647" ph="select * fro... worktable" />
-            <marker date="1618568501947" expanded="true" signature="4107:4179" ph="select * fro... worktable" />
-            <marker date="1618568501947" expanded="true" signature="4555:4727" ph="select * fro... complaint" />
-            <marker date="1618568501947" expanded="true" signature="4887:4912" ph="select * fro... rawmaterial" />
-            <marker date="1618568501947" expanded="true" signature="5071:5118" ph="select * fro... rawmaterial" />
-            <marker date="1618568501947" expanded="true" signature="5366:5398" ph="update rawma... " />
-            <marker date="1618568501947" expanded="true" signature="5366:5399" ph="update rawma... " />
-            <marker date="1618568501947" expanded="true" signature="5366:5408" ph="update rawma... " />
-            <marker date="1618568501947" expanded="true" signature="5366:5409" ph="update rawma... " />
-            <marker date="1618568501947" expanded="true" signature="5366:5419" ph="update rawma... " />
-            <marker date="1618568501947" expanded="true" signature="5366:5432" ph="update rawma... " />
-            <marker date="1618568501947" expanded="true" signature="5366:5447" ph="update rawma... " />
-            <marker date="1618568501947" expanded="true" signature="5366:5454" ph="update rawma... " />
-            <marker date="1618568501947" expanded="true" signature="5566:5603" ph="delete from " />
-            <marker date="1618568501947" expanded="true" signature="5566:5604" ph="delete from " />
-            <marker date="1618568501947" expanded="true" signature="5566:5610" ph="delete from " />
-            <marker date="1618568501947" expanded="true" signature="5566:5612" ph="delete from " />
-            <marker date="1618568501947" expanded="true" signature="6014:6035" ph="select * fro... service" />
-            <marker date="1618568501947" expanded="true" signature="6014:6052" ph="select * fro... service" />
-            <marker date="1618568501947" expanded="true" signature="6195:6236" ph="update servi... " />
-            <marker date="1618568501947" expanded="true" signature="6195:6243" ph="update servi... " />
-            <marker date="1618568501947" expanded="true" signature="6195:6249" ph="update servi... " />
-            <marker date="1618568501947" expanded="true" signature="6416:6454" ph="select * fro... service" />
-            <marker date="1618568501947" expanded="true" signature="6599:6653" ph="update servi... " />
-            <marker date="1618568501947" expanded="true" signature="6829:6849" ph="select * fro... worker" />
-            <marker date="1618568501947" expanded="true" signature="6829:6851" ph="select * fro... worker" />
-            <marker date="1618568501947" expanded="true" signature="7005:7025" ph="select * fro... worker" />
-            <marker date="1618568501947" expanded="true" signature="7005:7042" ph="select * fro... worker" />
-            <marker date="1618568501947" expanded="true" signature="7005:7049" ph="select * fro... worker" />
-            <marker date="1618568501947" expanded="true" signature="7858:7889" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7898" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7904" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7912" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7913" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7923" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7934" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7945" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7955" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7959" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7970" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7980" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7986" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:7993" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8003" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8011" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8021" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8028" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8037" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8043" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8051" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8052" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8059" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8072" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8096" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8103" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8107" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8114" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="7858:8116" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="8190:8425" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="8495:8770" ph="update worke... " />
-            <marker date="1618568501947" expanded="true" signature="8887:8928" ph="delete from " />
+            <element signature="e#1981#2038#0" expanded="false" />
+            <element signature="e#2492#2549#0" expanded="false" />
+            <element signature="e#2956#3009#0" expanded="false" />
+            <element signature="e#6256#6303#0" expanded="false" />
+            <element signature="e#6630#6804#0" expanded="false" />
+            <element signature="e#11547#11605#0" expanded="false" />
+            <element signature="e#11659#11714#0" expanded="false" />
+            <element signature="e#12970#14580#0" expanded="false" />
+            <marker date="1620832530174" expanded="true" signature="544:580" ph="select * fro... login" />
+            <marker date="1620832530174" expanded="true" signature="544:593" ph="select * fro... login" />
+            <marker date="1620832530174" expanded="true" signature="544:608" ph="select * fro... login" />
+            <marker date="1620832530174" expanded="true" signature="544:621" ph="select * fro... login" />
+            <marker date="1620832530174" expanded="true" signature="544:623" ph="select * fro... login" />
+            <marker date="1620832530174" expanded="true" signature="1580:1604" ph="insert into login... " />
+            <marker date="1620832530174" expanded="true" signature="1580:1609" ph="insert into login... " />
+            <marker date="1620832530174" expanded="true" signature="1580:1621" ph="insert into login... " />
+            <marker date="1620832530174" expanded="true" signature="1580:1644" ph="insert into login... " />
+            <marker date="1620832530174" expanded="true" signature="1580:1646" ph="insert into login... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1690" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1705" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1716" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1726" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1739" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1751" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1763" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1775" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1787" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1798" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1809" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1819" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1830" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="1662:1832" ph="insert into worker... " />
+            <marker date="1620832530174" expanded="true" signature="2260:2296" ph="insert into rawmaterial... " />
+            <marker date="1620832530174" expanded="true" signature="2260:2310" ph="insert into rawmaterial... " />
+            <marker date="1620832530174" expanded="true" signature="2260:2328" ph="insert into rawmaterial... " />
+            <marker date="1620832530174" expanded="true" signature="2260:2339" ph="insert into rawmaterial... " />
+            <marker date="1620832530174" expanded="true" signature="2260:2341" ph="insert into rawmaterial... " />
+            <marker date="1620832530174" expanded="true" signature="2784:2828" ph="insert into requiredrawmaterial... " />
+            <marker date="1620832530174" expanded="true" signature="2784:2841" ph="insert into requiredrawmaterial... " />
+            <marker date="1620832530174" expanded="true" signature="2784:2843" ph="insert into requiredrawmaterial... " />
+            <marker date="1620832530174" expanded="true" signature="3186:3218" ph="insert into service... " />
+            <marker date="1620832530174" expanded="true" signature="3186:3231" ph="insert into service... " />
+            <marker date="1620832530174" expanded="true" signature="3186:3232" ph="insert into service... " />
+            <marker date="1620832530174" expanded="true" signature="3186:3236" ph="insert into service... " />
+            <marker date="1620832530174" expanded="true" signature="3186:3253" ph="insert into service... " />
+            <marker date="1620832530174" expanded="true" signature="3186:3255" ph="insert into service... " />
+            <marker date="1620832530174" expanded="true" signature="3420:3498" ph="select * fro... worker" />
+            <marker date="1620832530174" expanded="true" signature="3661:3730" ph="update worke... " />
+            <marker date="1620832530174" expanded="true" signature="3902:3970" ph="update worke... " />
+            <marker date="1620832530174" expanded="true" signature="4131:4254" ph="select * fro... worktable" />
+            <marker date="1620832530174" expanded="true" signature="4131:4257" ph="select * fro... worktable" />
+            <marker date="1620832530174" expanded="true" signature="4405:4468" ph="update workt... " />
+            <marker date="1620832530174" expanded="true" signature="5013:5045" ph="insert into payment... " />
+            <marker date="1620832530174" expanded="true" signature="5013:5053" ph="insert into payment... " />
+            <marker date="1620832530174" expanded="true" signature="5013:5063" ph="insert into payment... " />
+            <marker date="1620832530174" expanded="true" signature="5013:5069" ph="insert into payment... " />
+            <marker date="1620832530174" expanded="true" signature="5013:5078" ph="insert into payment... " />
+            <marker date="1620832530174" expanded="true" signature="5013:5080" ph="insert into payment... " />
+            <marker date="1620832530174" expanded="true" signature="5096:5129" ph="insert into schedule... " />
+            <marker date="1620832530174" expanded="true" signature="5096:5136" ph="insert into schedule... " />
+            <marker date="1620832530174" expanded="true" signature="5096:5137" ph="insert into schedule... " />
+            <marker date="1620832530174" expanded="true" signature="5096:5149" ph="insert into schedule... " />
+            <marker date="1620832530174" expanded="true" signature="5096:5161" ph="insert into schedule... " />
+            <marker date="1620832530174" expanded="true" signature="5096:5170" ph="insert into schedule... " />
+            <marker date="1620832530174" expanded="true" signature="5188:5256" ph="update workt... " />
+            <marker date="1620832530174" expanded="true" signature="5429:5589" ph="select * fro... worktable" />
+            <marker date="1620832530174" expanded="true" signature="5761:5797" ph="select * fro... worktable" />
+            <marker date="1620832530174" expanded="true" signature="5761:5799" ph="select * fro... worktable" />
+            <marker date="1620832530174" expanded="true" signature="5761:5811" ph="select * fro... worktable" />
+            <marker date="1620832530174" expanded="true" signature="6048:6082" ph="update workt... " />
+            <marker date="1620832530174" expanded="true" signature="6048:6093" ph="update workt... " />
+            <marker date="1620832530174" expanded="true" signature="6048:6107" ph="update workt... " />
+            <marker date="1620832530174" expanded="true" signature="6048:6120" ph="update workt... " />
+            <marker date="1620832530174" expanded="true" signature="6388:6409" ph="select * fro... payment" />
+            <marker date="1620832530174" expanded="true" signature="6388:6504" ph="select * fro... payment" />
+            <marker date="1620832530174" expanded="true" signature="6657:6729" ph="select * fro... worktable" />
+            <marker date="1620832530174" expanded="true" signature="6887:6938" ph="select * fro... rawmaterial" />
+            <marker date="1620832530174" expanded="true" signature="7130:7192" ph="update rawma... " />
+            <marker date="1620832530174" expanded="true" signature="7390:7514" ph="select * fro... attendance" />
+            <marker date="1620832530174" expanded="true" signature="7390:7544" ph="select * fro... attendance" />
+            <marker date="1620832530174" expanded="true" signature="7780:7932" ph="select * fro... worktable" />
+            <marker date="1620832530174" expanded="true" signature="8337:8421" ph="select * fro... account" />
+            <marker date="1620832530174" expanded="true" signature="8454:8496" ph="select * fro... account" />
+            <marker date="1620832530174" expanded="true" signature="8782:8876" ph="update accou... " />
+            <marker date="1620832530174" expanded="true" signature="8903:8976" ph="update accou... " />
+            <marker date="1620832530174" expanded="true" signature="9002:9072" ph="update booki... " />
+            <marker date="1620832530174" expanded="true" signature="9103:9173" ph="select * fro... scheduleworker" />
+            <marker date="1620832530174" expanded="true" signature="9275:9362" ph="insert into monthly_payment... " />
+            <marker date="1620832530174" expanded="true" signature="9753:9773" ph="select * fro... client" />
+            <marker date="1620832530174" expanded="true" signature="9925:10097" ph="select * fro... complaint" />
+            <marker date="1620832530174" expanded="true" signature="10407:10491" ph="update compl... " />
+            <marker date="1620832530174" expanded="true" signature="10607:10632" ph="select * fro... rawmaterial" />
+            <marker date="1620832530174" expanded="true" signature="10791:10838" ph="select * fro... rawmaterial" />
+            <marker date="1620832530174" expanded="true" signature="11123:11234" ph="update rawma... " />
+            <marker date="1620832530174" expanded="true" signature="11346:11390" ph="delete from " />
+            <marker date="1620832530174" expanded="true" signature="11794:11832" ph="select * fro... service" />
+            <marker date="1620832530174" expanded="true" signature="11975:12029" ph="update servi... " />
+            <marker date="1620832530174" expanded="true" signature="12196:12234" ph="select * fro... service" />
+            <marker date="1620832530174" expanded="true" signature="12379:12433" ph="update servi... " />
+            <marker date="1620832530174" expanded="true" signature="12609:12629" ph="select * fro... worker" />
+            <marker date="1620832530174" expanded="true" signature="12785:12829" ph="select * fro... worker" />
+            <marker date="1620832530174" expanded="true" signature="13638:13894" ph="update worke... " />
+            <marker date="1620832530174" expanded="true" signature="13970:14205" ph="update worke... " />
+            <marker date="1620832530174" expanded="true" signature="14275:14550" ph="update worke... " />
+            <marker date="1620832530174" expanded="true" signature="14667:14708" ph="delete from " />
+            <marker date="1620832530174" expanded="true" signature="15004:15071" ph="select * fro... review" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Android.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding>
-            <marker date="1618575474241" expanded="true" signature="435:480" ph="insert into login... " />
-            <marker date="1618575474241" expanded="true" signature="435:506" ph="insert into login... " />
-            <marker date="1618575474241" expanded="true" signature="528:556" ph="insert into client... " />
-            <marker date="1618575474241" expanded="true" signature="528:567" ph="insert into client... " />
-            <marker date="1618575474241" expanded="true" signature="528:579" ph="insert into client... " />
-            <marker date="1618575474241" expanded="true" signature="528:593" ph="insert into client... " />
-            <marker date="1618575474241" expanded="true" signature="528:605" ph="insert into client... " />
-            <marker date="1618575474241" expanded="true" signature="528:606" ph="insert into client... " />
-            <marker date="1618575474241" expanded="true" signature="528:608" ph="insert into client... " />
-            <marker date="1618575474241" expanded="true" signature="789:825" ph="select * fro... login" />
-            <marker date="1618575474241" expanded="true" signature="789:838" ph="select * fro... login" />
-            <marker date="1618575474241" expanded="true" signature="789:854" ph="select * fro... login" />
-            <marker date="1618575474241" expanded="true" signature="789:867" ph="select * fro... login" />
-            <marker date="1618575474241" expanded="true" signature="789:869" ph="select * fro... login" />
+            <marker date="1620833984944" expanded="true" signature="412:483" ph="insert into login... " />
+            <marker date="1620833984944" expanded="true" signature="505:598" ph="insert into client... " />
+            <marker date="1620833984944" expanded="true" signature="855:932" ph="select * fro... login" />
+            <marker date="1620833984944" expanded="true" signature="1243:1281" ph="select * fro... service" />
+            <marker date="1620833984944" expanded="true" signature="1739:1784" ph="insert into worktable... " />
+            <marker date="1620833984944" expanded="true" signature="1739:1879" ph="insert into worktable... " />
+            <marker date="1620833984944" expanded="true" signature="2092:2361" ph="select * fro... client" />
+            <marker date="1620833984944" expanded="true" signature="2661:2731" ph="select * fro... payment" />
+            <marker date="1620833984944" expanded="true" signature="2849:2896" ph="update payme... " />
+            <marker date="1620833984944" expanded="true" signature="2849:2907" ph="update payme... " />
+            <marker date="1620833984944" expanded="true" signature="3135:3277" ph="select * fro... schedule" />
+            <marker date="1620833984944" expanded="true" signature="3135:3325" ph="select * fro... schedule" />
+            <marker date="1620833984944" expanded="true" signature="3135:3365" ph="select * fro... schedule" />
+            <marker date="1620833984944" expanded="true" signature="3726:3829" ph="insert into complaint... " />
+            <marker date="1620833984944" expanded="true" signature="4001:4076" ph="select * fro... complaint" />
+            <marker date="1620833984944" expanded="true" signature="4001:4123" ph="select * fro... complaint" />
+            <marker date="1620833984944" expanded="true" signature="4410:4497" ph="insert into rating... " />
+            <marker date="1620833984944" expanded="true" signature="4663:4730" ph="select * fro... rating" />
+            <marker date="1620833984944" expanded="true" signature="5050:5167" ph="insert into leave... " />
+            <marker date="1620833984944" expanded="true" signature="5375:5444" ph="select * fro... review" />
+            <marker date="1620833984944" expanded="true" signature="5375:5453" ph="select * fro... worker_leave" />
+            <marker date="1620833984944" expanded="true" signature="5375:5481" ph="select * fro... worker_leave" />
+            <marker date="1620833984944" expanded="true" signature="5375:5495" ph="select * fro... worker_leave" />
+            <marker date="1620833984944" expanded="true" signature="5375:5501" ph="select * fro... worker_leave" />
+            <marker date="1620833984944" expanded="true" signature="5375:5504" ph="select * fro... worker_leave" />
+            <marker date="1620833984944" expanded="true" signature="5375:5515" ph="select * fro... worker_leave" />
+            <marker date="1620833984944" expanded="true" signature="5375:5520" ph="select * fro... worker_leave" />
+            <marker date="1620833984944" expanded="true" signature="5740:5792" ph="select * fro... client" />
+            <marker date="1620833984944" expanded="true" signature="6048:6124" ph="insert into attendance... " />
           </folding>
         </state>
       </provider>
