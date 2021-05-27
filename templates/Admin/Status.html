@@ -1,0 +1,24 @@
+{% extends 'admin_index.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/status1/{{ data['workid'] }}">
+  <table width="200" border="0">
+    <tr>
+      <th colspan="2"><h3>Status</h3></th>
+
+    </tr>
+    <tr>
+      <td>Current status of the work</td>
+      <td><label for="raw_name"></label>
+      <input type="textarea" name="raw_name" id="raw_name"  value=""/></td>
+    </tr>
+
+    <tr>
+      <td colspan="2"><input type="submit" name="bt_rawSubmit" id="bt_rawSubmit" value="Submit" /></td>
+
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

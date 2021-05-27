@@ -1,0 +1,35 @@
+{% extends 'admin_index.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/workdetails1/{{ d }}/{{ d1 }}">
+  <table width="433" border="1">
+    <tr>
+      <td>Number of workers</td>
+      <td><label for="no"></label>
+      <input type="text" name="no" id="no" required /></td>
+    </tr>
+    <tr>
+      <td>Start date</td>
+      <td><label for="sdate"></label>
+      <input type="date" name="sdate" id="sdate" required /></td>
+    </tr>
+    <tr>
+      <td>End date</td>
+      <td><label for="edate"></label>
+      <input type="date" name="edate" id="edate" required /></td>
+    </tr>
+    <tr>
+      <td>Amount</td>
+      <td><label for="amt"></label>
+      <input type="text" name="amt" id="amt"  required/></td>
+    </tr>
+    <tr>
+      <td colspan="2" ><input type="submit" name="submit" id="submit" value="Submit" /></td>
+
+    </tr>
+  </table>
+</form>
+
+</body>
+{% endblock %}

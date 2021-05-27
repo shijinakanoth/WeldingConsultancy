@@ -1,0 +1,28 @@
+{% extends 'admin_index.html' %}
+{% block body %}
+
+<body><center><h3>Complaints</h3>
+  <table width="495" height="68" border="1" class="table table-striped">
+    <tr>
+      <th width="20">#</th>
+         <th width="66">Date</th>
+      <th width="64">Client</th>
+      <th width="88">Review</th>
+        <th width="88">Rating</th>
+
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>{{ loop.index }}&nbsp;</td>
+      <td>&nbsp;{{ i['date_and_time'] }}</td>
+      <td>{{ i['name'] }}&nbsp;</td>
+        <td>{{ i['review'] }}&nbsp;</td>
+      <td>{{ i['ratings'] }}&nbsp;</td>
+
+    </tr>
+      {% endfor %}
+  </table>
+  <p>&nbsp;</p>
+</center>
+</body>
+{% endblock %}

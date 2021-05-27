@@ -2,14 +2,13 @@
 {% block body %}
 
 <body><center><h3>Complaints</h3>
-  <table width="495" height="68" border="1">
+  <table width="495" height="68" border="1" class="table table-striped">
     <tr>
       <th width="20">#</th>
       <th width="64">Client</th>
       <th width="88">Email</th>
         <th width="88">Service</th>
       <th width="135">Complaint</th>
-      <th width="66">Date</th>
       <th width="82">Reply</th>
     </tr>
       {% for i in data %}
@@ -18,9 +17,9 @@
       <td>&nbsp;{{ i['name'] }}</td>
       <td>{{ i['email'] }}&nbsp;</td>
         <td>{{ i['service'] }}&nbsp;</td>
-      <td>{{ i['complaint'] }}&nbsp;</td>
-      <td>{{ i['comp_date'] }}&nbsp;</td>
-      <td><a href="#">reply</a></td>
+        <td>&nbsp;{{ i['comp_date'] }}-&nbsp;{{ i['complaint'] }}</td>
+    <td>{% if i['reply']=="pending"%}<a href="/view_act/{{ i['complaint_id'] }}"><font color="blue">reply</font></a> {% else %}
+  {{ i['reply_date'] }}-{{ i['reply'] }}{% endif %}</td>
     </tr>
       {% endfor %}
   </table>

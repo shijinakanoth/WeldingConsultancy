@@ -1,17 +1,18 @@
 {% extends 'admin_index.html' %}
 {% block body %}
 
-<body><h1>View services</h1>
-<center><table width="500" height="91" border="0">
-<caption>Current services</caption>
-    <tr>
-      <th width="54">#</th>
+<body>
+<center><h3>Current services</h3>
+    <table width="1000" height="100" border="0">
+{#<caption>Current services</caption>#}
+    <tr bgcolor="#f0ffff">
+      <th width="54">Sl. No.</th>
       <th width="132">Service</th>
         <th width="132">Description</th>
       <th width="60">&nbsp;</th>
     </tr>
       {% for i in data %}
-    <tr>
+   <tr bgcolor="white">
       <td>&nbsp;{{ loop.index }}</td>
       <td>{{ i['service'] }}&nbsp;</td>
         <td>{{ i['description'] }}&nbsp;</td>

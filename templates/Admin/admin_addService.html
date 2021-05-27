@@ -1,28 +1,38 @@
 {% extends 'admin_index.html' %}
 {% block body %}
-<body>
-<h1>Add services</h1>
+<body><center>
 <form id="form1" name="form1" method="post" action="/addservice1">
-  <center><table width="500" border="0">
-
+  <center><table width="700" height="200" border="0">
+<tr>
+    <th colspan="2"><h3>Add Services</h3></th>
+</tr>
     <tr>
       <td>Sevice</td>
       <td><label for="txt_service"></label>
       <input type="text" name="txt_service" id="txt_service" /></td>
     </tr>
+ <tr>
+          <td colspan="2">
 
+          </td>
+      </tr>
 
       <tr>
       <td>Something about services </td>
       <td><label for="txt_service1"></label>
-      <input type="text" name="txt_service1" id="txt_service1" /></td>
+      <input type="textarea" name="txt_service1" id="txt_service1" /></td>
     </tr>
+ <tr>
+          <td colspan="2">
 
+          </td>
+      </tr>
     <tr>
       <td colspan="2"><center><input type="submit" name="bt_service" id="bt_service" value="Add" /></center></td>
       
     </tr>
   </table></center>
 </form>
+    </center>
 </body>
 {% endblock %}

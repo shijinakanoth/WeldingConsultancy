@@ -1,22 +1,29 @@
 {% extends 'admin_index.html' %}
 {% block body %}
 
-<body><center><h3> Attendance Register</h3>
-  <table width="320" height="72" border="1">
+<body>
+{% if data==0 %}
+    <h1><font color="blue">NO DATA</font> </h1>
+    {% else %}
+<center><h3> Attendance Register</h3>
+  <table class="table table-stripped" border="1">
     <tr>
       <th width="30">#</th>
-      <th width="92">Worker ID</th>
+      <th width="92">Date</th>
       <th width="78">Name</th>
       <th width="92">Attendance</th>
     </tr>
+      {% for i in data %}
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>{{ loop.index }}</td>
+      <td>{{ i['date'] }}&nbsp;</td>
+      <td>&nbsp;{{ i['worker_name'] }}</td>
+      <td>Present</td>
     </tr>
+      {% endfor %}
   </table>
   <p>&nbsp;</p>
 </center>
+{% endif %}
 </body>
 {% endblock %}

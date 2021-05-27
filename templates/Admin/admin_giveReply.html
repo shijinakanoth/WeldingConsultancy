@@ -2,19 +2,16 @@
 {% block body %}
 
 <body>
-<form id="form1" name="form1" method="post" action="">
-  <table width="200" border="1">
-    <tr>
-      <th colspan="2">Reply</th>
-     
-    </tr>
+<form id="form1" name="form1" method="post" action="/act_reply/{{ x }}">
+  <table>
+
     <tr>
       <td>Reply</td>
-      <td><label for="txt_reply"></label>
-      <input type="text" name="txt_reply" id="txt_reply" /></td>
+      <td>
+          <textarea name="txt_reply" id="txt_reply" class="form-control" cols="40" rows="3" ></textarea></td>
     </tr>
     <tr>
-      <td colspan="2"><input type="submit" name="bt_reply" id="bt_reply" value="Submit" /></td>
+      <td colspan="2" align="center"><input type="submit" name="bt_reply" id="bt_reply" value="Submit" class="btn btn-primary" /></td>
       
     </tr>
   </table>

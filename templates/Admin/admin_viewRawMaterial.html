@@ -3,17 +3,19 @@
 
 <body><center>
   <h3>View Raw Material</h3>
-  <table width="1200" height="200" border="0">
-    <tr>
-      <th width="28">#</th>
+  <table width="1000" height="200" border="0">
+    <tr bgcolor="#f0ffff">
+      <th width="28">Sl. No.</th>
       <th width="78">Name</th>
+        <th width="109">Description</th>
       <th width="109">Quantity</th>
       <th width="89">&nbsp;</th>
     </tr>
       {% for i in data %}
-    <tr>
+    <tr bgcolor="white">
       <td>{{ loop.index }}&nbsp;</td>
       <td>&nbsp;{{ i['raw_name'] }}</td>
+        <td>{{ i['description'] }}</td>
       <td>{{ i['quantity'] }}&nbsp;</td>
       <td><p><a href="/deleteraw/{{ i['raw_id'] }}">delete</a></p>
       <p><a href="/updateraw/{{ i['raw_id'] }}">update</a></p></td>

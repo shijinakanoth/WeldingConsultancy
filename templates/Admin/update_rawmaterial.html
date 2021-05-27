@@ -5,13 +5,18 @@
 <form id="form1" name="form1" method="post" action="/updateraw1/{{ data['raw_id'] }}">
   <table width="200" border="0">
     <tr>
-      <th colspan="2">Update Raw Material</th>
+        <th colspan="2"><h3>Update Raw Material</h3></th>
 
     </tr>
     <tr>
       <td>Name</td>
       <td><label for="raw_name"></label>
       <input type="text" name="raw_name" id="raw_name"  value="{{ data['raw_name'] }}"/></td>
+    </tr>
+      <tr>
+      <td>Description</td>
+      <td><label for="raw_quantity"></label>
+      <input type="text" name="raw_desc" id="raw_desc" value="{{ data['description'] }}"/></td>
     </tr>
     <tr>
       <td>Quantity</td>

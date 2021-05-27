@@ -2,7 +2,7 @@
 {% block body %}
 <body>
 <center><h3>Leave Applications</h3>
-  <table width="508" height="91" border="1">
+  <table width="508" height="91" border="1" class="table table-striped">
     <tr>
       <th width="22">#</th>
       <th width="76">Worker ID</th>
@@ -22,8 +22,7 @@
       <td>&nbsp;{{ i['days'] }}</td>
       <td>&nbsp;{{ i['reason'] }}</td>
       <td>{{ i['apply_date'] }}&nbsp;</td>
-      <td><p><a href="#">approve</a></p>
-      <p><a href="#">reject</a></p></td>
+      <td>{% if i['status']=="pending" %}<p><a href="/approve_leave/{{ i['leave_id']}}">approve</a>&nbsp;&nbsp;<a href="/reject_leave/{{ i['leave_id']}}">reject</a></p>{% elif i['status']=="reject" %}<font color="red">Rejected</font>{% elif i['status']=="approve" %}<font color="green">Approved</font>{% endif %} </td>
     </tr>
       {% endfor %}
   </table>

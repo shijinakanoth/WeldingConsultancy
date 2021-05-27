@@ -1,0 +1,34 @@
+{% extends 'admin_index.html' %}
+{% block body %}
+<center>
+{% if data['status']=="salary_paid" %}
+    <h2>Paid</h2>
+{% else %}
+    <form id="form1" name="form1" method="post" action="/payment/{{ data['workid'] }}/{{ data['amount'] }}">
+
+  <table>
+    <tr>
+      <td>Total Amount</td>
+      <td><label for="textfield3"></label>
+      <input type="text" name="textfield3" id="textfield3" value="{{ total }}" readonly class="form-control"/></td>
+    </tr>
+
+        <tr>
+            <td>Account Number</td>
+            <td>        <input type="text" name="acc" id="acc" class="form-control" required/></td>
+    </tr>
+        <tr>
+      <td>IFSC CODE</td>
+    <td> <input type="text" name="i" id="i"  class="form-control" required />
+    </td>
+    </tr>
+       <tr>
+      <td colspan="2"><div align="center">
+        <input type="submit" name="button" id="button" value="PAY" class="btn btn-primary" />
+      </div></td>
+    </tr>
+  </table>
+</form>
+{% endif %}
+</center>
+{% endblock %}

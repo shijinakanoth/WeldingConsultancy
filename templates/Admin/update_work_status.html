@@ -1,0 +1,46 @@
+{% extends 'admin_index.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/update_work_status_post/{{ id }}">
+  <table>
+
+    <tr>
+      <td>Status:</td>
+      <td>
+          <textarea name="txt_reply" id="txt_reply" class="form-control" cols="40" rows="3" ></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><input type="submit" name="bt_reply" id="bt_reply" value="Submit" class="btn btn-primary" /></td>
+      
+    </tr>
+  </table>
+</form>
+<br><br>
+{% if data %}
+    <h2><u>Current status of the work</u></h2>
+    <br>
+    <form method="post" action="/view_attendence/{{ data['workid'] }}">
+<table width="200" border="0">
+
+    <tr>
+        <td> <font color="green" size="5px">Status:</font></td>
+      <td>
+     <font color="red" size="5px">{{ data['work_status'] }}</font></td>
+    </tr>
+<tr>
+    <td><input type="submit" name="s" id="s" value="View Attendence" class="btn btn-primary" /></td><td><input type="submit" name="s" id="s" value="Pay Salary" class="btn btn-primary" /></td>
+
+    </tr>
+
+  </table>
+    </form>
+
+
+{% endif %}
+
+
+
+</body>
+
+{% endblock %}

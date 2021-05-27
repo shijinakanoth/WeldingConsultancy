@@ -1,67 +1,111 @@
 {% extends 'admin_index.html' %}
 {% block body %}
 
-<body>
+<body><center>
 <form action="/editworker1/{{ data['workerid'] }}" method="post" enctype="multipart/form-data" name="form1" id="form1">
-  <table width="405" height="386" border="0">
+  <table width="700" height="386" border="0">
     <tr>
-      <th colspan="2">&nbsp;Register Worker</th>
+        <th colspan="2">&nbsp;<h3>Edit Worker</h3></th>
       
     </tr>
     <tr>
       <td>Name</td>
       <td><label for="txt_name3"></label>
-      <input type="text" name="txt_name" id="txt_name3" value="{{ data['worker_name'] }}"/></td>
+      <input type="text" name="txt_name" size="50" id="txt_name3" value="{{ data['worker_name'] }}"/></td>
+    </tr>
+       <tr>
+        <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
     </tr>
     <tr>
-      <td>Dob</td>
+      <td>Date of birth</td>
       <td><label for="txt_dob"></label>
-      <input type="text" name="txt_dob" id="txt_dob" value="{{ data['dob'] }}" /></td>
+      <input type="text" name="txt_dob" size="50" id="txt_dob" value="{{ data['dob'] }}" /></td>
+    </tr>
+       <tr>
+        <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
     </tr>
     <tr>
-      <td>Mobile No.</td>
+      <td>Mobile Number</td>
       <td><label for="txt_mobile"></label>
-      <input type="text" name="txt_mobile" id="txt_mobile" value="{{ data['phone_no'] }}"/></td>
-    </tr>	
-    <tr>
-      <td>Adhar No.</td>
-      <td><label for="txt_adhar"></label>
-      <input type="text" name="txt_adhar" id="txt_adhar" value="{{ data['adhar_no'] }}"/></td>
+      <input type="text" name="txt_mobile" size="50" id="txt_mobile" value="{{ data['phone_no'] }}"/></td>
+    </tr>
+       <tr>
+        <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
     </tr>
     <tr>
-      <td>Email</td>
+      <td>Adhar Number</td>
+      <td><label for="txt_adhar"></label>
+      <input type="text" name="txt_adhar" size="50" id="txt_adhar" value="{{ data['adhar_no'] }}"/></td>
+    </tr>
+       <tr>
+        <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
+    </tr>
+    <tr>
+      <td>Email id</td>
       <td><label for="txt_email"></label>
-      <input type="text" name="txt_email" id="txt_email" value="{{ data['worker_email'] }}"/></td>
+      <input type="text" name="txt_email" size="50" id="txt_email" value="{{ data['worker_email'] }}"/></td>
+    </tr>
+       <tr>
+        <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
     </tr>
     <tr>
       <td>House name</td>
       <td><label for="txt_house"></label>
-      <input type="text" name="txt_house" id="txt_house" value="{{ data['house_name'] }}" /></td>
+      <input type="text" name="txt_house" size="50" id="txt_house" value="{{ data['house_name'] }}" /></td>
+    </tr>
+       <tr>
+        <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
     </tr>
     <tr>
       <td>Place</td>
       <td><label for="txt_place"></label>
-      <input type="text" name="txt_place" id="txt_place" value="{{ data['place'] }}"/></td>
+      <input type="text" name="txt_place" size="50" id="txt_place" value="{{ data['place'] }}"/></td>
+    </tr>
+       <tr>
+        <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
     </tr>
     <tr>
       <td>Post</td>
       <td><label for="txt_post"></label>
-      <input type="text" name="txt_post" id="txt_post" value="{{ data['post'] }}"/></td>
+      <input type="text" name="txt_post" size="50" id="txt_post" value="{{ data['post'] }}"/></td>
+    </tr>
+       <tr>
+        <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
     </tr>
     <tr>
-      <td>Pin</td>
+      <td>Pin number</td>
       <td><label for="txt_pin"></label>
-      <input type="text" name="txt_pin" id="txt_pin" value="{{ data['pin'] }}"/></td>
+      <input type="text" name="txt_pin" size="50" id="txt_pin" value="{{ data['pin'] }}"/></td>
+    </tr>
+       <tr>
+        <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
     </tr>
     <tr>
       <td>Photo</td>
       <td><label for="photo"></label>
       <input type="file" name="photo" id="photo" /><img src="{{ data['photo'] }}" height="100" width="100"></td>
     </tr>
+       <tr>
+        <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
+    </tr>
       <tr>
       <td>Wages per day</td>
       <td><label for="wages"></label>
-      <input type="text" name="wages" id="wages" value="{{ data['wages'] }}" /></td>
+      <input type="text" name="wages" size="50" id="wages" value="{{ data['wages'] }}" /></td>
+    </tr>
+       <tr>
+        <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
     </tr>
     <tr>
       <td colspan="2"><input type="submit" name="bt_submit" id="bt_submit" value="Submit" /></td>
@@ -69,5 +113,6 @@
     </tr>
   </table>
 </form>
+    </center>
 </body>
 {% endblock %}

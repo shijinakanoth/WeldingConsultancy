@@ -3,22 +3,22 @@
 
 <body><center>
 <h3>Confirm Work</h3>
-<table width="482" height="76" border="1">
-  <tr>
-    <th width="23">#</th>
+<table width="750" height="90" border="0">
+  <tr bgcolor="#f0ffff">
+    <th width="23">Sl. No.</th>
     <th width="67">Client</th>
     <th width="167">Work location</th>
     <th width="113">Service</th>
     <th width="78">&nbsp;</th>
   </tr>
 {% for i in data %}
-  <tr>
+  <tr bgcolor="white">
     <td>{{ loop.index }}&nbsp;</td>
-    <td>{{ i['name'] }}<br>Email id: {{ i['email'] }}<br>Ph no: {{ i['phone_no'] }}&nbsp;</td>
-    <td>{{ i['worksite']}}<br>Lattitude:{{ i['lattitude'] }}<br>Longitude:{{ i['longitude'] }}&nbsp;</td>
+    <td>Name:{{ i['name'] }}<br>Email id: {{ i['email'] }}<br>Contact Number:: {{ i['phone_no'] }}&nbsp;</td>
+    <td>Place:{{ i['worksite']}}<br>Lattitude:{{ i['lattitude'] }}<br>Longitude:{{ i['longitude'] }}&nbsp;</td>
     <td>&nbsp;{{ i['service'] }}</td>
-    <td><p><a href="#">confirm</a></p>
-    <p><a href="#">reject</a></p></td>
+    <td>{% if i['work_status']=="pending" %}<p><a href="/workdetails/{{ i['clientid'] }}/{{ i['workid'] }}">confirm</a></p>
+    <p><a href="/reject_work/{{ i['workid'] }}">reject</a></p>{% elif i['work_status']=="reject" %}<font color="red">Rejected</font>{% else %}<font color="green"><a href="/update_work_status/{{ i['workid'] }}">Work Status</a></font> {% endif %}</td>
   </tr>
     {% endfor %}
 </table></center>

@@ -1,9 +1,9 @@
 {% extends 'admin_index.html' %}
 {% block body %}
 <body><center><h3>Work Status</h3>
-  <table width="451" height="73" border="1">
+  <table width="451" height="73" border="0">
     <tr>
-      <th width="28">#</th>
+      <th width="28">Sl. No.</th>
       <th width="99">Client</th>
       <th width="116">Location</th>
       <th width="102">Status</th>
@@ -15,7 +15,7 @@
       <td>{{ i['name'] }}&nbsp;</td>
         <td>{{ i['worksite'] }}<br/>&nbsp;Latitude:{{ i['latitude'] }}<br/> Longitude:{{ i['longitude'] }}</td>
       <td>{{ i['status'] }}&nbsp;</td>
-      <td><a href="#">update</a></td>
+      <td><a href="/status/{{ data['workid'] }}">update</a></td>
     </tr>
       {% endfor %}
   </table>
